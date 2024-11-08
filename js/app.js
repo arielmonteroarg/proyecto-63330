@@ -79,11 +79,11 @@ if(edad >= 18){
 if(sinopcion===0){
     const msj =`Que buena Eleccion ${nombre}, Felicidades ya reservamos su entrada a ${nombreEvento} `; 
     console.log(msj);
-    alert(msj);
+    alert(`${msj}`);
 }else{
     const msj =`Por favor ${nombre}, recargue la pagina y intente de nuevo , ya que su eleccion  ${nombreEvento} `; 
     console.log(msj);
-    alert(msj);
+    alert(`${msj}`);
 }
     
 
